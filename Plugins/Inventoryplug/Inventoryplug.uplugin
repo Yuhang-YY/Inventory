@@ -1,0 +1,23 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Inventoryplug",
+	"Description": "Inventory",
+	"Category": "Other",
+	"CreatedBy": "yuhang",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Inventoryplug",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
