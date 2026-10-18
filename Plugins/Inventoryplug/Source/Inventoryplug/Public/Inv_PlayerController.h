@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerController.h"
 #include "Inv_PlayerController.generated.h"
 
+class UInputAction;
+class UInputMappingContext;
 /**
  * 
  */
@@ -16,4 +18,11 @@ class INVENTORYPLUG_API AInv_PlayerController : public APlayerController
 	
 protected:
 	virtual void BeginPlay() override;
+	
+private:
+	UPROPERTY(EditDefaultsOnly,Category="Inventory")
+	TObjectPtr<UInputMappingContext> DefaultIMC;
+	
+	UPROPERTY(EditDefaultsOnly,Category="Inventory")
+	TObjectPtr<UInputAction> PrimaryInteract;
 };
